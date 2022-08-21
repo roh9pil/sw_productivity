@@ -10,7 +10,14 @@
 # 2019 SBES Factors Affecting Software Development Productivity
 * 소프트웨어 개발 프로젝트와 오픈소스 프로젝트에서 생산성에 영향을 미치는 요인들을 조사하였다.
 * Product, People, Organization, Open-source projects 분야에서 총 37개의 요인을 도출하고 각각의 영향 (negative, positive) 에 대해서 조사했다.
-*
+
+# 2019 IEEE_TOSE The Effect on Work Environments on Productivity and Satisfaction of Software Enginnering
+* 업무 환경이 생산성과 만족도에 어떻게 영향을 주는지 연구함
+* 업무 환경의 어떤 요소들이 영향을 주는지 설문조사를 통해서 도출함
+   - personalization, social norm and signals, work area and furniture 등
+* 개발팀에 대해서 통계 모델을 만들어서 분석했는데, 개발팀 외에 PM, Marketing 팀에도 동일한 조사를 통해 수집한 데이터로 분석한 결과도 비교함
+* 업무 환경에 대한 만족도와 방해없이 조용히 일할 수 있는 것이 모든 팀에서 공통으로 중요하다고 나왔다. 
+* Software Engineer는 추가로 팀과 리더와 소통을 잘 할 수 있는가가 중요한 요소로 나왔음
 
 # 2021 IEEE_TOSE What Predicts Software Developers' Productivity
 * 사무실 레이아웃, 툴, 소스코드 정리 등 개발자 생산성을 위해 다양한 분야의 많은 노력들을 한다. 어떤게 가장 임팩트가 강할까?
@@ -40,6 +47,12 @@
   - Activity
   - Communication and collaboration
   - Efficiency and flow
+
+# 2021 Tool for Measuring Productivity in Software Development Teams
+* Prodctivity의 정의도 그것이 여러 양상을 조합하여 설명될 수 있다는 것도 sw 업게에서 합의가 되지는 않았다. 
+* 다양한 factor들을 가지고 sw 개발팀의 생산성을 측정하도록 도움을 주는 툴을 개발했다. 확장성 있는 툴을 개발했다는 것 같음
+* 기존 연구의 카테고리를 사용함
+   - 2019 SBES Factors Affecting Software Development Productivity
 
 # 2022 CHASE How Develoeprs and Managers Define and Trade Productivity for Quality
 * 개발자 생산성과 소프트웨어 품질은 관련이 있는데, 그것들이 합의된 의미로 사용되고 있지 않고 그 둘 사이의 trade-off 를 고려하는 것도 부실하다. 
