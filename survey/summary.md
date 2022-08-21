@@ -18,3 +18,6 @@
    - peer supports for new ideas
    - receiving useful feedback about job performance
 * 다른 지식 노동자들과 다른 점은 task variety와 원격 근무가 그들의 생산성에 영향을 준다는 것이다. 
+
+# 2021 acmqueue The SPACE of Developer Productivity
+* 많은 연구가 있었지만, 규정하기 어려운 것으로 남아있다. 
