@@ -7,6 +7,9 @@
   2. 중요한 일들을 스위칭해가면서 일을 할때 생산성이 있다고 느꼈다. 
 * 위에 대한 분석 내용과 개발자들에 대한 나은 지원 방법을 제안함
 
+# 2019 SBES Factors Affecting Software Development Productivity
+* 소프트웨어 개발 프로젝트와 오픈소스 프로젝트에서 생산성에 영향을 미치는 요인들을 조사하였다. 
+
 # 2021 IEEE_TOSE What Predicts Software Developers' Productivity
 * 사무실 레이아웃, 툴, 소스코드 정리 등 개발자 생산성을 위해 다양한 분야의 많은 노력들을 한다. 어떤게 가장 임팩트가 강할까?
 * 3개 회사, 622명의 개발자에게 조사한 내용이다.(self-rated productivity)
@@ -15,4 +18,3 @@
    - peer supports for new ideas
    - receiving useful feedback about job performance
 * 다른 지식 노동자들과 다른 점은 task variety와 원격 근무가 그들의 생산성에 영향을 준다는 것이다. 
-
