@@ -21,6 +21,16 @@
    - receiving useful feedback about job performance
 * 다른 지식 노동자들과 다른 점은 task variety와 원격 근무가 그들의 생산성에 영향을 준다는 것이다. 
 
+# 2021 ICSE How Was Your Weekend? Software Development Teams Working From Home During COVID-19
+* COVID-19 pandemic으로 sw 개발팀들의 협업/소통 방식이 근본적으로 바뀌었다. 
+* 이게 팀 문화나 팀 생산성에 어떻게 영향을 주었을 지를 조사한다. 
+* Pandemic 초기 조사때 많은 개발자들이 마일스톤 달성에 어려움을 겪었다. 
+   - communication, social connection과 같은 팀 문화 요소에 영향을 준 것이다. 
+* regression model을 통한 team culture factor의 중요도 (팀 생산성에 영향)
+   - brainstorm with colleagues
+   - difficulty communicating with colleagues
+   - satisfaction with interfactios from socal activities
+
 # 2021 acmqueue The SPACE of Developer Productivity
 * 많은 연구가 있었지만, 개발자 생산성을 어떻게 측정하는 지는 규정하기 어려운 것으로 남아있다. 
 * 개발자 생산성에 대한 common myths와 오해들을 설명한다.
