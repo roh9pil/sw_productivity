@@ -1,6 +1,6 @@
 # 2014 FSE Software Developers' Percetions of Productivity
 
-* 기존에는 SW 개발조직 관점에서 생산성에 대하 연구가 주로 있었다.
+* 기존에는 SW 개발조직 관점에서 생산성에 대한 연구가 주로 있었다.
 * 개발자 관점에서 생산성에 대해서 조사한다.
 * 379명 개발자에게 조사했더니, 두개의 모순된 결과가 나옴
   1. 나는 많은 (혹은 중요한) 일들을 방해받지 않고 (interruptions or context swtiches) 완료했을때 생산성이 있다고 느꼈다.
@@ -18,6 +18,32 @@
 * 개발팀에 대해서 통계 모델을 만들어서 분석했는데, 개발팀 외에 PM, Marketing 팀에도 동일한 조사를 통해 수집한 데이터로 분석한 결과도 비교함
 * 업무 환경에 대한 만족도와 방해없이 조용히 일할 수 있는 것이 모든 팀에서 공통으로 중요하다고 나왔다. 
 * Software Engineer는 추가로 팀과 리더와 소통을 잘 할 수 있는가가 중요한 요소로 나왔음
+
+# 2019 Rethinking Productivity in Software Engineering
+## Chapter 4. Defining Productivity in Software Engineering
+* Stefan Wagner, University of Stuttgart 
+* PE Model을 제안함
+  - Tangen's Triple-P-Model 기반으로: productivity, profitability, and performance
+  - ![PE Model](https://user-images.githubusercontent.com/33504272/186276376-7fda50b5-76f5-4435-ae27-58d0a4078e9c.png)
+  - https://media.springernature.com/full/springer-static/image/chp%3A10.1007%2F978-1-4842-4221-6_4/MediaObjects/456196_1_En_4_Fig2_HTML.png?as=webp
+
+* productivity
+  - concensus: output/input
+* profitability: productivity 보다 상위 개념
+  - most often defined: Revenue/Cost 
+* performance: profiability 보다 상위 개념
+  - Balanced Scorecard
+* Efficiency and Effectiveness
+  - Efficiency: utilization of resource
+  - Effectiveness: usefullness of output
+* Influence of Quality
+  - Peter F. Drucker, 1994, Knowledge-Worker Productivity: The Biggest Challenge
+  - 지식노동자의 생산성에 품질을 중요한 요소로 봄
+
+## Chapter 5. 
+
+## Chapter 7. 
+
 
 # 2021 IEEE_TOSE What Predicts Software Developers' Productivity
 * 사무실 레이아웃, 툴, 소스코드 정리 등 개발자 생산성을 위해 다양한 분야의 많은 노력들을 한다. 어떤게 가장 임팩트가 강할까?
