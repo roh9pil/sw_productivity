@@ -91,3 +91,8 @@
       - 개발자: work activity, 매니저: performance or quality outcomes
    - Quality는 잘 맞는 편
 * 이 연구는 개발자와 매니저가 그들의 견해를 일치시키고, 생산성과 품질 균형에 대한 정보에 의한 결정을 내릴수 있는 프레임을 제공했다는데 의의가 있음
+
+# Facebook 
+* At Facebook and Uber, performance is then measured on a 1 to 5 scale - 3 is meets all expectations, 5 being exceptional, and 1 being unsatisfactory. 1 and 5 being very uncommon. https://www.quora.com/What-metrics-do-big-tech-companies-Google-Facebook-Netflix-etc-use-to-track-the-performance-of-their-software-engineers
+* (Facebook) Generally speaking, performance is evaluated against expectations and goals. Each team and individual engineer set themselves goals for each half and their performance is then measured on how well they track against these goals.Goals can be anything really, like "Improve metric X by Y percent" or "Ship feature Z" or "Double the number of internal users of an API you're building" or "Help engineer Q onboard and hit his goal".
+* https://blog.pragmaticengineer.com/can-you-measure-developer-productivity/
