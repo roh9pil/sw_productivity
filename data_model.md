@@ -166,8 +166,8 @@ erDiagram
         int time_window_days "Time Window (Days)"
     }
 
-    %% --- Relationships ---
-    project |
+%% --- Relationships ---
+project |
 
 |--o{ work_item : contains
     sprint |
