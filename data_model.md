@@ -1,4 +1,5 @@
 erDiagram
+
     %% --- Subject Area 1: Planning & Requirements ---
     project {
         int id PK "Project ID"
