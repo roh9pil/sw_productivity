@@ -1,3 +1,4 @@
+```mermaid
 erDiagram
 
     %% --- Subject Area 1: Planning & Requirements ---
@@ -250,3 +251,4 @@ erDiagram
 
 |--o{ service_level_objective : "has"
 
+```
