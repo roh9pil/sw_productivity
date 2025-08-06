@@ -1,6 +1,5 @@
 ```mermaid
 erDiagram
-
     %% --- Subject Area 1: Planning & Requirements ---
     project {
         int id PK "Project ID"
@@ -166,89 +165,36 @@ erDiagram
         int time_window_days "Time Window (Days)"
     }
 
-%% --- Relationships ---
-project |
+    %% --- Relationships (Corrected Syntax) ---
+    project ||--o{ work_item : contains
+    sprint ||--o{ work_item : contains
+    release_version ||--o{ work_item : contains
+    team_member ||--o{ work_item : "is assignee of"
+    team_member ||--o{ work_item : "is reporter of"
+    work_item ||--|| defect : "can be a"
 
-|--o{ work_item : contains
-    sprint |
+    repository ||--o{ commit : contains
+    team_member ||--o{ commit : "is author of"
+    commit ||--o{ file_change : contains
+    repository ||--o{ pull_request : contains
+    team_member ||--o{ pull_request : "is author of"
+    pull_request ||--o{ code_review : has
+    team_member ||--o{ code_review : "is reviewer of"
 
-|--o{ work_item : contains
-    release_version |
+    repository ||--o{ pipeline_run : "belongs to"
+    commit ||--o{ pipeline_run : "triggers"
+    pipeline_run ||--o{ deployment : "results in"
+    pipeline_run ||--o{ build_artifact : "produces"
 
-|--o{ work_item : contains
-    team_member |
+    work_item ||--o{ test_case : "is covered by"
+    test_case ||--o{ test_run : "has"
+    deployment ||--o{ test_run : "validates"
+    release_version ||--o{ defect : "found in"
+    commit ||--|| code_quality_scan : "is scanned"
 
-|--o{ work_item : "assignee"
-    team_member |
-
-|--o{ work_item : "reporter"
-    work_item |
-
-|--|
-| defect : "can be"
-
-    repository |
-
-|--o{ commit : contains
-    team_member |
-
-|--o{ commit : "author"
-    commit |
-
-|--o{ file_change : contains
-    repository |
-
-|--o{ pull_request : contains
-    team_member |
-
-|--o{ pull_request : "author"
-    pull_request |
-
-|--o{ code_review : has
-    team_member |
-
-|--o{ code_review : "reviewer"
-
-    repository |
-
-|--o{ pipeline_run : "belongs to"
-    commit }o--|
-
-| pipeline_run : "triggers"
-    pipeline_run |
-
-|--o{ deployment : "results in"
-    pipeline_run |
-
-|--o{ build_artifact : "produces"
-
-    work_item }o--|
-
-| test_case : "is covered by"
-    test_case |
-
-|--o{ test_run : "has"
-    deployment }o--|
-
-| test_run : "validates"
-    release_version }o--|
-
-| defect : "found in"
-    commit }o--|
-
-| code_quality_scan : "is scanned"
-
-    service |
-
-|--o{ incident : "affects"
-    deployment }o--|
-
-| incident : "can cause"
-    service |
-
-|--o{ sli_measurement : "has"
-    service |
-
-|--o{ service_level_objective : "has"
+    service ||--o{ incident : "affects"
+    deployment ||--o{ incident : "can cause"
+    service ||--o{ sli_measurement : "has"
+    service ||--o{ service_level_objective : "has"
 
 ```
